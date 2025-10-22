@@ -1,0 +1,101 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   position: relative;
+   background: linear-gradient(135deg, #435ed4 0%, #301e41 100%);
+}
+.container {
+  padding-left: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-right: 5rem;  
+  margin-top: 10rem;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border-radius: 7px;
+ 
+}
+.img-bg {
+  height: 70px;
+  position: absolute;
+  margin-top: -170px;
+  margin-left: -80px;
+  transform: rotate(-30deg)
+  
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;  
+
+}
+.username {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: inset 0 0 1px 0.90px rgba(0, 0, 0, 0.15);
+}
+
+.username:hover {
+  transform: scale(1.1);
+  transition: 0.20s
+}
+
+.password {
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: inset 0 0 1px 0.90px rgba(0, 0, 0, 0.15);
+}
+.password:hover {
+  transform: scale(1.1);
+  transition: 0.20s
+}
+
+html {
+  display: inline-block;
+}
+
+.log-button {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline-flex;
+  background-color: rgb(129, 211, 238);
+  border: none;
+  color: white;
+  font-family: "Poppins", sans-serif; 
+  border-radius: 25px;
+}
+.log-button:hover {
+  opacity: 0.90;
+}
+.log-button:active {
+  opacity: 0.80;
+}
+.input-group {
+  margin-bottom: 20px;  
+
+}
+.forgot-pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;   
+  text-decoration: none;
+}
+
